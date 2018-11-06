@@ -30,7 +30,6 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(cheese)
-  shared = []
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   if (cheese & cheese_types)
