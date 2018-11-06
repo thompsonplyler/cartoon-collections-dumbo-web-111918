@@ -19,13 +19,13 @@ end
 def long_planeteer_calls(calls)
 
   calls.collect do |x|
-    if x.include?(x.length < 5)
-      false
+    if x.length < 5 
+      true 
     else
-      true
-    end
-  end
+      false
+  end.include?(true)
 
+  
 end
 
 def find_the_cheese# code an argument here
