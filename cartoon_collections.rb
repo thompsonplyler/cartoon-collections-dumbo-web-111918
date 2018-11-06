@@ -33,7 +33,7 @@ def find_the_cheese(cheese)
   shared = []
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  if (cheese & cheese_types).length > 1
+  if (cheese & cheese_types)
     (cheese & cheese_types).join
   else
     nil
