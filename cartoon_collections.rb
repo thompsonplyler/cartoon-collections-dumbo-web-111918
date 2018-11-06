@@ -37,6 +37,7 @@ def find_the_cheese(cheese)
   else
     nil
   end
+
 end
 
 # for any element of array:cheese, if it matches
