@@ -33,7 +33,7 @@ def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   if cheese & cheese_types
-    cheese & cheese_types
+    cheese & cheese_types.to_s
   else
     nil
   end
