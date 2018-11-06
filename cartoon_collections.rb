@@ -30,8 +30,8 @@ def long_planeteer_calls(calls)
 end
 
 # this successfull returns the cheese value if
-# there is an intersection, but it fails to 
-# return nil 
+# there is an intersection, but it fails to
+# return nil
 
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
@@ -50,9 +50,12 @@ def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   cheese.collect do |x|
-    cheese_types.include?(x)
+    if cheese_types.include?(x)
+      return x 
+    else 
+      return nil 
 
-  
+
 end
 
 
