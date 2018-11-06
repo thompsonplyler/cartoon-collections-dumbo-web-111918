@@ -51,9 +51,10 @@ def find_the_cheese(cheese)
 
   cheese.collect do |x|
     if cheese_types.include?(x)
-      return x 
-    else 
-      return nil 
+      return x
+    else
+      nil
+    end
 
 
 end
