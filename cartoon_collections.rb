@@ -53,8 +53,8 @@ def find_the_cheese(cheese)
 #cheese_types.include?(x)
 #  end
 
-  cheese.collect do |type|
-    cheese_types.find(type)
+  cheese.find do |type|
+    cheese_types.include?(type)
   end
 
 
