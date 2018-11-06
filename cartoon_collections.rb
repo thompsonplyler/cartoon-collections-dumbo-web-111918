@@ -55,9 +55,6 @@ def find_the_cheese(cheese)
 
   cheese.collect do |x|
     cheese_types.find(x)
-    else
-      nil
-    end
   end
 
 
