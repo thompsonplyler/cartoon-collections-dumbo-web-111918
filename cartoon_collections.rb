@@ -18,6 +18,11 @@ end
 
 def long_planeteer_calls(calls)
 
+calls.collect do |x|
+  if x < 5 
+    false
+  end
+end
 
 end
 
