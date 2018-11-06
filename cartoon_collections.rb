@@ -31,6 +31,16 @@ end
 
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese.include?(cheese_types)
+
+  if cheese & cheese_types
+    cheese & cheese_types
+  else
+    nil
+  end
+
 
 end
+
+# for any element of array:cheese, if it matches
+# array:cheese_types, return the value of the matched
+# cheese type.
