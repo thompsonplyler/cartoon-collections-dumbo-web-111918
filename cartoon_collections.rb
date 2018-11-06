@@ -37,6 +37,7 @@ def find_the_cheese(cheese)
     (cheese & cheese_types).join
   else
     nil <<  shared
+    shared.join
   end
 
 end
