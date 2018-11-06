@@ -23,6 +23,7 @@ def long_planeteer_calls(calls)
       true
     else
       false
+    end
   end.include?(true)
 
 
