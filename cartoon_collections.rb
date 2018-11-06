@@ -19,7 +19,7 @@ end
 def long_planeteer_calls(calls)
 
   calls.collect do |x|
-    if x.length < 5
+    if x.include?(x.length < 5)
       false
     else
       true
