@@ -35,7 +35,7 @@ def find_the_cheese(cheese)
   if cheese & cheese_types
     (cheese & cheese_types).join
   else
-    nil
+    return nil
   end
 
 
