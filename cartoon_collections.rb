@@ -32,17 +32,17 @@ end
 # this successfull returns the cheese value if
 # there is an intersection, but it fails to
 # return nil
-
-def find_the_cheese(cheese)
-  cheese_types = ["cheddar", "gouda", "camembert"]
-
-  if (cheese & cheese_types)
-    (cheese & cheese_types).join
-  else
-    nil
-  end
-
-end
+#
+# def find_the_cheese(cheese)
+#  cheese_types = ["cheddar", "gouda", "camembert"]
+#
+#  if (cheese & cheese_types)
+#    (cheese & cheese_types).join
+#  else
+#    nil
+#  end
+#
+#end
 
 # end of failing method
 
