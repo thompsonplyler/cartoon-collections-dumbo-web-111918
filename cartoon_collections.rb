@@ -36,8 +36,7 @@ def find_the_cheese(cheese)
   if (cheese & cheese_types).length > 1
     (cheese & cheese_types).join
   else
-    nil <<  shared
-    shared.join
+    nil
   end
 
 end
