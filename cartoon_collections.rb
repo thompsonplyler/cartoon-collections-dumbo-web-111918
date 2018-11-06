@@ -54,7 +54,6 @@ def find_the_cheese(cheese)
       return x
     else
       nil
-      break
     end
   end
 
