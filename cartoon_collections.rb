@@ -5,7 +5,7 @@ dwarf_arr = []
     dwarf_arr << "#{index+1}. #{x}"
   end
 
-dwarf_arr
+puts dwarf_arr
 
 end
 
